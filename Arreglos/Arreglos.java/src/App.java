@@ -9,7 +9,7 @@ public class App {
         System.out.println(Arrays.toString(numeros));
         /*String [] anime;
         anime = new String[10];
-        String caricatura;
+        String caricatura;  	    
         for (int i = 0; i < anime.length; i++) {
             System.out.println(" ingresa tu anime favorito: ");
             caricatura=teclado.nextLine();
@@ -39,7 +39,7 @@ public class App {
         }*/
 
         
-        int[] lados;
+        /*int[] lados;
         int l;
         do { 
             System.out.println("ingrese el numero de lados: " );
@@ -62,9 +62,37 @@ public class App {
         }
         System.out.println("El perimetro de tu figura es: "+suma);
 
-    for (int idx = lados.length-1; idx >= 0; idx--) {
+        for (int idx = lados.length-1; idx >= 0; idx--) {
         System.out.println(lados[idx]);
-    }
+        }*/
+
+        /*String [] actores = { "Timothée Chalamet", "Florence Pugh", "Margot Robin",
+            "Cate Blanchet", "Jennifer Lawrence", " ", "Anna Taylor Joy", " ", " ", "Ryan Gosling"
+        };
+
+        String a;
+        for (int i = 0; i < actores.length; i++) {
+            if(actores[i].equals(" ")){
+                System.out.println("Ingrese un actor: ");
+                a = teclado.nextLine();
+                actores[i] = a;
+            }
+            
+           
+        }
+        System.out.println(Arrays.toString(actores));
+         //Invertir nombres dentro del array
+         String b="";
+         for (int i = 0; i < actores.length; i++) {
+                for (int j = actores[i].length()-1; j >=0; j--) {
+                    b = b+actores[i].charAt(j);
+                }
+                actores[i] = b;
+                b="";
+         }
+         System.out.println(Arrays.toString(actores));*/
+        
+
 
         /*String[] songs;
 
